@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Vur Bakalım!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🥊 VUR BAKALIM!</h1>
+
+    <div class="top">
+        <label class="upload">
+            📷 Fotoğraf Seç
+            <input type="file" id="photoInput" accept="image/*">
+        </label>
+
+        <div class="stats">
+            <span>Skor: <b id="score">0</b></span>
+            <span>Süre: <b id="time">30</b></span>
+        </div>
+    </div>
+
+    <div id="game">
+        <div id="message">
+            Önce bir fotoğraf seç!
+        </div>
+
+        <img id="target" src="" alt="Hedef">
+
+        <div id="hitText">💥</div>
+    </div>
+
+    <button id="startButton">OYUNU BAŞLAT</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
